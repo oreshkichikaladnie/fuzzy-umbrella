@@ -3,12 +3,12 @@
 
 int main()
 {
-    float a, b, c;
-    printf("Vvedite chisla\n"); scanf("%f %f %f", &a, &b, &c);
+    double a, b, c;
+    printf("Vvedite chisla\n"); scanf("%d %d %d", &a, &b, &c);
 
     a == 0 ? b == 0 ? printf("no solutions") :
-        printf("%f", -c / b) : (pow(b, 2) - 4 * a * c) > 0 ?
-        printf("%f %f", (-b + (pow(b, 2) - 4 * a * c)) / 2 * a, (-b - (pow(b, 2) - 4 * a * c)) / 2 * a) : (pow(b, 2) - 4 * a * c) == 0 ? printf("%f", -b / 2 * a) :
+        printf("%d", -c / b) : (b*b - 4 * a * c) > 0 ?
+        printf("%d %d", (-b + sqrt(b*b - 4 * a * c)) / 2 * a, (-b - sqrt(b*b - 4 * a * c)) / 2 * a) : (b*b - 4 * a * c) == 0 ? printf("%d", -b / 2 * a) :
         printf("no solutions");
-
+        return 0;
 }
