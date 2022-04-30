@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "Header.h"
+#include "func.h"
 
 
 int main()
