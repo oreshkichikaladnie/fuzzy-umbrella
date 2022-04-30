@@ -83,5 +83,6 @@ int main(int argc, char* argv[])
     for (s = STR; s < STR + n; s++)
         puts(*s);
 
+    free(buf);
     return 0;
 }
