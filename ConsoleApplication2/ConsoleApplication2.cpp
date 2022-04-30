@@ -25,7 +25,7 @@ int main()
 {
     unsigned long long int a, b;
     printf("Input a and b\n");
-    scanf("%lu%lu", &a, &b);
+    scanf("%llu%llu", &a, &b);
     a = perevod(a); b = perevod(b);
     output(a); output(b); output(a | b); output(a & b);
 
