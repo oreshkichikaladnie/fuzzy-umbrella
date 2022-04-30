@@ -1,5 +1,6 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
+#include "func.h"
 
 int fact_cycle(int n) {
     int fib1 = 1, fib2 = 1, sum;
