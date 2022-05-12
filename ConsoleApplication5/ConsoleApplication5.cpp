@@ -10,8 +10,9 @@ int main()
 
     for (i = 0; m[i] != '\0'; i++)
         c++;
+    if(c<=50)
     for (i = c - 1; i >= 0; i--)
         printf("%c", m[i]);
-   free(m);
+    free(m);
 
 }
